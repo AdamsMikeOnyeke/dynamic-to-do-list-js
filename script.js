@@ -13,7 +13,7 @@ document.addEventListener('DOMContentLoaded', function toDoList(){
 
             const button = document.createElement('button')
             button.textContent= "Remove"
-            button.className='remove-btn'
+            button.classList.add('remove-btn')
             
             button.onclick = function () {
                 li.remove()
